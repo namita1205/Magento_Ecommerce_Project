@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-01T22:30:41Z" name="Suite" finished-at="2020-07-01T22:31:26Z" duration-ms="44489">
+    <groups>
+    </groups>
+    <test started-at="2020-07-01T22:30:41Z" name="chromeTest" finished-at="2020-07-01T22:31:26Z" duration-ms="44489">
+      <class name="com.ecommerce.Magento.testCases.TC_SortDateTest_013">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ecommerce.Magento.testCases.TC_SortDateTest_013@4f5991f6]" started-at="2020-07-01T22:30:42Z" name="setUp" finished-at="2020-07-01T22:30:52Z" duration-ms="10534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SortDateAscendingtest()[pri:0, instance:com.ecommerce.Magento.testCases.TC_SortDateTest_013@4f5991f6]" started-at="2020-07-01T22:30:52Z" name="SortDateAscendingtest" finished-at="2020-07-01T22:31:14Z" duration-ms="21503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortDateAscendingtest -->
+        <test-method signature="verifyDateDesendingTest()[pri:0, instance:com.ecommerce.Magento.testCases.TC_SortDateTest_013@4f5991f6]" started-at="2020-07-01T22:31:14Z" name="verifyDateDesendingTest" finished-at="2020-07-01T22:31:25Z" duration-ms="11316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateDesendingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.Magento.testCases.TC_SortDateTest_013@4f5991f6]" started-at="2020-07-01T22:31:25Z" name="tearDown" finished-at="2020-07-01T22:31:26Z" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.Magento.testCases.TC_SortDateTest_013 -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

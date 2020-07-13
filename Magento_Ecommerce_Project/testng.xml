@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+<listeners>
+<listener class-name="com.ecommerce.Magento.utilities.ExtentReportManager"></listener>
+
+</listeners>
+
+  <!-- test thread-count="5" name="firefoxTest">
+  <parameter name="browser" value="firefox">
+  </parameter>-->
+    <!--  classes>-->
+      <!--class name="com.ecommerce.Magento.testCases.TC_SortingByName_001"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_CompareProductPriceTest_002"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_UpdateCartTest_003"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_CompareTwoMobilesTest_004"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_CreateAccountTest_005"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_PurchaseOrderTest_006"/>
+      <class name="com.ecommerce.Magento.testCases.TC_SaveOrderAsPdfTest_007"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_ReorderTest_008"/>-->
+      <!-- class name="com.ecommerce.Magento.testCases.TC_CouponTest_009"/> -->
+      
+      
+      
+    <!--  /classes>
+  </test> --> 
+  
+    <test thread-count="5" name="chromeTest">
+    <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    
+      <!--  class name="com.ecommerce.Magento.testCases.TC_SortingByName_001"/>-->
+      <!-- class name="com.ecommerce.Magento.testCases.TC_PurchaseOrderTest_006"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_ReadingCSVFileTest_010"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_PrintInvoiceTest_011"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_ProductReviewTest_012"/>-->
+      <class name="com.ecommerce.Magento.testCases.TC_SortDateTest_013"/>
+      <!--  class name="com.ecommerce.Magento.testCases.TC_SearchFunctionalityTest_014"/>-->
+      <!--  class name="com.ecommerce.Magento.testCases.TC_DisabledFieldTest_015"/>-->
+      
+    </classes>
+  </test>
+  
+</suite> 
